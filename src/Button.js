@@ -36,7 +36,7 @@ const SIZES = {
 //font-size: ${props => (props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2)}px;
 
 const StyledButton = styled.button`
-  border: 10px solid red;
+  border: 0;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
@@ -53,7 +53,7 @@ const StyledButton = styled.button`
   opacity: 1;
   margin: 0;
   background: transparent;
-  font-size: 20px;
+  font-size: ${props => (props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2)}px;
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
   ${props =>
