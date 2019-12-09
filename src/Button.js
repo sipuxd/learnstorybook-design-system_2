@@ -32,6 +32,9 @@ const SIZES = {
   MEDIUM: 'medium',
 };
 
+//border: 0;
+//font-size: ${props => (props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2)}px;
+
 const StyledButton = styled.button`
   border: 0;
   border-radius: 3em;
